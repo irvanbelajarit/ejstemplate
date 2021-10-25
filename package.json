@@ -1,0 +1,28 @@
+{
+  "name": "ejstemplate",
+  "version": "1.0.0",
+  "description": "contoh ejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irvanbelajarit/ejstemplate.git"
+  },
+  "author": "Irvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irvanbelajarit/ejstemplate/issues"
+  },
+  "homepage": "https://github.com/irvanbelajarit/ejstemplate#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1"
+  }
+}
